@@ -1,0 +1,65 @@
+body{
+  background-color: purple !important;
+  text-align: center;
+  color: white;
+  flex-direction: 100%;
+  display: center !important;
+  justify-content: center;
+  letter-spacing: .7px;
+}
+button {
+  border: none ;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: blue ;
+  background-color: aqua ;
+  font-size: 16px;
+  transition: .3s;
+  border-radius: 7px;
+}
+button:hover{
+  color: black ;
+  background-color: gray !important;
+}
+input{
+  margin: 10px;
+  padding: 7px;
+  border:solid 1px;
+  border-radius: 10px !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  display: list-item;
+  float: right;
+  justify-content: center !important;
+}
+ul li{
+  background-color: gold !important;
+  color: black;
+  width: 300px;
+  padding: 5px;
+  position: relative;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition:.3s;
+  cursor: pointer;
+  flex-direction: 100%;
+  justify-content: center;
+  
+}
+ul li button {
+  background-attachment: fixed;
+  background-color: red;
+  float: right;
+  text-align: center  ;
+  text-decoration: solid;
+}
